@@ -1,0 +1,100 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(190, 140, 140);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    text-align: center;
+
+}
+
+/* Amazon Logo */
+.logo img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+/* Sign-in Box */
+.signin-box {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signin-box h2 {
+    text-align: left;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* Form Inputs */
+form {
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+}
+
+/* Sign-In Button */
+button {
+    width: 100%;
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #ddb347;
+}
+
+/* Help and New User Links */
+.help, .new-user {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+a {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+/* Home button */
+.sign {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.sign:hover {
+    background-color: red;
+    border: 2px solid black;
+}
+

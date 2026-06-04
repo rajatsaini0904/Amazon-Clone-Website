@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background-color: #222;
+    color: red;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    padding: 60px 20px;
+    background: url('https://source.unsplash.com/1600x900/?gym,fitness') no-repeat center center/cover;
+}
+
+.hero h2 {
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e60000;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 40px;
+}
+
+.gallery h2 {
+    margin-bottom: 20px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.gallery-container img {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Services Section */
+.services {
+    padding: 40px;
+}
+
+.service-box {
+    background-color: #333;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 250px;
+}
+
+.service-box img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #111;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Home button */
+.home-button {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.home-button:hover {
+    background-color: red;
+    border: 2px solid black;
+}
+
+/* for buying */
+.buy-button{
+    color: white;
+    text-decoration: none;
+    background-color: red;
+
+}

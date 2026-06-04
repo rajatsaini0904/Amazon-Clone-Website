@@ -1,0 +1,101 @@
+/* Reset styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.hero img {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.features {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.features ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.features li {
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* Image gallery styling */
+.bike-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.bike-gallery img {
+    width: 30%;
+    max-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+    background-color: #ffcc00;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+.bike1{
+    text-align: center;
+}
+
+/* Home button */
+.home-button {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.home-button:hover {
+    background-color: red;
+    border: 2px solid black;
+}
+
+/* for buying */
+.buy-button{
+    color: white;
+    text-decoration: none;
+    background-color: red;
+
+}
